@@ -11,6 +11,11 @@ To compile in cmd
 
 From the src directory   
 
+## References
+
+[Oracle's Java SE 7 Documentation](https://docs.oracle.com/javase/7/docs/api/)  
+e.g. https://docs.oracle.com/javase/7/docs/api/java/io/BufferedReader.html
+
 ## V.1 Program behaviour
 
 Your program will take one and only one argument from the command line. This argument
