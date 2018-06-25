@@ -13,8 +13,19 @@ From the src directory
 
 ## References
 
-[Oracle's Java SE 7 Documentation](https://docs.oracle.com/javase/7/docs/api/)  
+### [Oracle's Java SE 7 Documentation](https://docs.oracle.com/javase/7/docs/api/)  
 e.g. https://docs.oracle.com/javase/7/docs/api/java/io/BufferedReader.html
+
+### [Oracle's Java SE 7 Tutorials](https://docs.oracle.com/javase/tutorial/essential/)  
+e.g. https://docs.oracle.com/javase/tutorial/essential/exceptions/finally.html
+
+### [A pretty good programming resource](http://www.java2s.com/)
+e.g. http://www.java2s.com/Code/JavaAPI/java.io/BufferedInputStream.htm
+
+### Links  
+*   https://docs.oracle.com/javase/7/docs/api/java/io/BufferedReader.html  
+*   https://docs.oracle.com/javase/tutorial/essential/exceptions/finally.html  
+*   http://www.java2s.com/Code/JavaAPI/java.util/foreachloopforArrayList.htm  
 
 ## V.1 Program behaviour
 
