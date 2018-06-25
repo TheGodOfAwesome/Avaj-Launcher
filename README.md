@@ -22,10 +22,19 @@ e.g. https://docs.oracle.com/javase/tutorial/essential/exceptions/finally.html
 ### [A pretty good programming resource](http://www.java2s.com/)
 e.g. http://www.java2s.com/Code/JavaAPI/java.io/BufferedInputStream.htm
 
+### [Tutorials Point](https://www.tutorialspoint.com/java/index.htm)
+e.g. https://www.tutorialspoint.com/java/java_inheritance.htm
+
+### [A Computer Science Portal](http://www.java2s.com/)
+e.g. https://www.geeksforgeeks.org/arrays-in-java/
+
 ### Links  
 *   https://docs.oracle.com/javase/7/docs/api/java/io/BufferedReader.html  
 *   https://docs.oracle.com/javase/tutorial/essential/exceptions/finally.html  
+*   https://docs.oracle.com/javase/tutorial/java/data/manipstrings.html  
 *   http://www.java2s.com/Code/JavaAPI/java.util/foreachloopforArrayList.htm  
+*   https://www.geeksforgeeks.org/arrays-in-java/  
+*   https://www.tutorialspoint.com/java/java_strings.htm  
 
 ## V.1 Program behaviour
 
