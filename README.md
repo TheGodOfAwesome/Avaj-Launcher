@@ -35,6 +35,8 @@ e.g. https://www.geeksforgeeks.org/arrays-in-java/
 *   http://www.java2s.com/Code/JavaAPI/java.util/foreachloopforArrayList.htm  
 *   https://www.geeksforgeeks.org/arrays-in-java/  
 *   https://www.tutorialspoint.com/java/java_strings.htm  
+*   https://www.tutorialspoint.com/java/java_inheritance.htm  
+*   https://en.wikipedia.org/wiki/Class_diagram  
 
 ## V.1 Program behaviour
 
