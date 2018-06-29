@@ -1,10 +1,16 @@
-package simulator;
+package simulator.aircraft;
 
 public class Coordinates {
 
     int longitude;
     int latitude;
     int height;
+
+    public Coordinates(int lon, int lat, int height){
+        this.longitude  = lon;
+        this.latitude   = lat;
+        this.height     = height;
+    }
 
     public int getLongitude() {
         return longitude;

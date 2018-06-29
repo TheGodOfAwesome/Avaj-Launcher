@@ -36,8 +36,13 @@ e.g. https://www.geeksforgeeks.org/arrays-in-java/
 *   https://www.geeksforgeeks.org/arrays-in-java/  
 *   https://www.tutorialspoint.com/java/java_strings.htm  
 *   https://www.tutorialspoint.com/java/java_inheritance.htm  
+*   https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html
 *   https://en.wikipedia.org/wiki/Class_diagram  
-
+*   https://www.youtube.com/watch?v=wiQdrH2YpT4 Observer Design Pattern  
+*   https://www.youtube.com/watch?v=ohL2HIBK1pg Observer Design Pattern  
+*   https://www.youtube.com/watch?v=ub0DXaeV6hA&t=4s Factory Design Pattern  
+*   https://www.youtube.com/watch?v=xbjAsdAK4xQ Abstract Factory Design Pattern
+ 
 ## V.1 Program behaviour
 
 Your program will take one and only one argument from the command line. This argument
