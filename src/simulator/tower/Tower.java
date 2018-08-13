@@ -1,27 +1,68 @@
 package simulator.tower;
 
-import simulator.Flyable;
-import java.util.Observer;
+import simulator.PrintFile;
+import simulator.aircraft.Baloon;
+import simulator.aircraft.IFlyable;
+import simulator.aircraft.Helicopter;
+import simulator.aircraft.JetPlane;
 
-public class Tower implements Observer {
+import java.util.ArrayList;
+import java.util.List;
 
-    public Tower(){
+public class Tower {
+    private static List<IFlyable> observers = new ArrayList<IFlyable>();
+
+    public void register(IFlyable flyable) {
+        observers.add(flyable);
+        switch (flyable.getClass().getName()) {
+            case "Baloon": {
+                Baloon baloon = Baloon.class.cast(flyable);
+                PrintFile.addString(PrintFile.formatStringTowerBaloon(baloon, "registered to weather tower."));
+                System.out.println(flyable.getClass().getName() + " registered to weather tower.");
+                break;
+            }
+            case "JetPlane": {
+                JetPlane jetPlane = JetPlane.class.cast(flyable);
+                PrintFile.addString(PrintFile.formatStringTowerJetPlane(jetPlane, "registered to weather tower."));
+                System.out.println(flyable.getClass().getName() + " registered to weather tower.");
+                break;
+            }
+            case "Helicopter": {
+                Helicopter helicopter = Helicopter.class.cast(flyable);
+                PrintFile.addString(PrintFile.formatStringTowerHelicopter(helicopter, "registered to weather tower."));
+                System.out.println(flyable.getClass().getName() + " registered to weather tower.");
+                break;
+            }
+        }
     }
 
-    public void register(Flyable flyable){
-        return;
+    public void unregister(IFlyable flyable) {
+        observers.remove(flyable);
+        switch (flyable.getClass().getName()) {
+            case "Baloon": {
+                Baloon baloon = Baloon.class.cast(flyable);
+                PrintFile.addString(PrintFile.formatStringTowerBaloon(baloon, "Tower says: Baloon#" + flyable.getClass().getName() + "(" + "id" + ")" + " unregistered to weather tower."));
+                System.out.println(flyable.getClass().getName() + " unregistered to weather tower.");
+                break;
+            }
+            case "JetPlane": {
+                JetPlane jetPlane = JetPlane.class.cast(flyable);
+                PrintFile.addString(PrintFile.formatStringTowerJetPlane(jetPlane, "unregistered to weather tower."));
+                System.out.println(flyable.getClass().getName() + " unregistered to weather tower.");
+                break;
+            }
+            case "Helicopter": {
+                Helicopter helicopter = Helicopter.class.cast(flyable);
+                PrintFile.addString(PrintFile.formatStringTowerHelicopter(helicopter, "unregistered to weather tower."));
+                System.out.println(flyable.getClass().getName() + " unregistered to weather tower.");
+                break;
+            }
+        }
     }
 
-    public void unregister(Flyable flyable){
-        return;
-    }
-
-    public void conditionsChanged(){
-        return;
-    }
-
-    @Override
-    public void update(java.util.Observable o, Object arg) {
-
+    protected void conditionsChanged() {
+        for (int i = 0; i < observers.size(); i++) {
+            observers.get(i).updateConditions();
+        }
     }
 }

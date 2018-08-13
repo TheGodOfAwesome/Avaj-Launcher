@@ -1,29 +1,20 @@
 package simulator.aircraft;
 
-interface IAircraft{
-    public static final String Baloon = "Baloon";
-    public static final String Helicopter = "Helicopter";
-    public static final String JetPlane = "JetPlane";
+public class Aircraft{
 
-    public long nextId();
-}
+    protected long        id;
+    protected String      name;
+    protected Coordinates coords;
+    private static long   idCounter = 1;
 
-public class Aircraft implements IAircraft{
-
-    long        id;
-    String      name;
-    Coordinates coords;
-    long        idCounter;
-
-    public Aircraft(long _id, String _name, Coordinates _coords, long _idCounter){
-        this.id         = _id;
-        this.name       = _name;
+    Aircraft(String _name, Coordinates _coords){
         this.coords     = _coords;
-        this.idCounter  = _idCounter;
+        this.name       = _name;
+        this.id         = nextId();
     }
 
-    public long nextId(){
-        return 0;
+    private long nextId() {
+        return (idCounter++);
     }
 
 }

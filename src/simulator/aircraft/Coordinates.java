@@ -2,18 +2,18 @@ package simulator.aircraft;
 
 public class Coordinates {
 
-    int longitude;
-    int latitude;
-    int height;
+    private int longitude;
+    private int latitude;
+    private int height;
 
-    public Coordinates(int lon, int lat, int height){
+    Coordinates(int lon, int lat, int height){
         this.longitude  = lon;
         this.latitude   = lat;
         this.height     = height;
     }
 
     public int getLongitude() {
-        return longitude;
+        return this.longitude;
     }
 
     public void setLongitude(int longitude) {
@@ -21,7 +21,7 @@ public class Coordinates {
     }
 
     public int getLatitude() {
-        return latitude;
+        return this.latitude;
     }
 
     public void setLatitude(int latitude) {
@@ -29,10 +29,11 @@ public class Coordinates {
     }
 
     public int getHeight() {
-        return height;
+        return this.height;
     }
 
     public void setHeight(int height) {
         this.height = height;
     }
+
 }

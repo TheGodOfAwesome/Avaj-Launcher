@@ -5,9 +5,19 @@ A minimal aircraft simulation program based on a given UML class diagram.
 
 ## Compile
 To compile in cmd  
-* Run:  
-   + -> javac simulator/Simulator.java  
-   + -> java simulator.Simulator Test.txt  
+   #### Linux / MacOS
+   > $ find -name "*.java" > sources.txt  
+   > $ javac @sources.txt
+
+   #### Windows
+   > /> dir /s /B *.java > sources.txt  
+   > /> javac @sources.txt
+
+   #### Or
+   > -> javac simulator/Simulator.java
+
+   #### Run:
+   + -> java simulator.Simulator Test.txt
 
 From the src directory   
 
