@@ -51,6 +51,9 @@ public class Simulator {
                             if (flyable != null)
                                 flyables.add(flyable);
                         }
+                    } else {
+                        System.out.println("Invalid file formatting.");
+                        System.exit(1);
                     }
                     count++;
                 }

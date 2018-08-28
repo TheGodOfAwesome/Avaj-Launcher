@@ -1,0 +1,108 @@
+Tower says: Baloon#B1(1) registered to weather tower.
+Tower says: Helicopter#H1(2) registered to weather tower.
+Tower says: Helicopter#H2(3) registered to weather tower.
+Tower says: Baloon#B2(4) registered to weather tower.
+Tower says: JetPlane#J1(5) registered to weather tower.
+Tower says: Baloon#B3(6) registered to weather tower.
+Tower says: JetPlane#J2(7) registered to weather tower.
+Tower says: Helicopter#H4(8) registered to weather tower.
+Baloon#B1(1): CAN YOU FEEL THE WINDS OF WINTER?!
+Baloon#B1(1): ITS SO BRIGHT OUT!
+Helicopter#H1(2): WE ARE GOING TO HAVE A WHITE CHRISTMAS!
+Helicopter#H1(2): ITS FOGGING UP!
+Helicopter#H2(3): WE ARE GOING TO HAVE A WHITE CHRISTMAS!
+Helicopter#H2(3): ITS FOGGING UP!
+Baloon#B2(4): CAN YOU FEEL THE WINDS OF WINTER?!
+Baloon#B2(4): ITS SO BRIGHT OUT!
+JetPlane#J1(5): SNOW FALL!
+JetPlane#J1(5): SUN IS SHINING!
+Baloon#B3(6): CAN YOU FEEL THE WINDS OF WINTER?!
+Baloon#B3(6): ITS SO BRIGHT OUT!
+JetPlane#J2(7): SNOW FALL!
+JetPlane#J2(7): SUN IS SHINING!
+Helicopter#H4(8): WE ARE GOING TO HAVE A WHITE CHRISTMAS!
+Helicopter#H4(8): AHH ITS A BEAUTIFUL DAY!
+Baloon#B1(1): CAN YOU FEEL THE WINDS OF WINTER?!
+Baloon#B1(1) landed.
+Baloon#B1(1) unregistered from weather tower.
+Helicopter#H1(2): WE ARE GOING TO HAVE A WHITE CHRISTMAS!
+Helicopter#H1(2) LANDED.
+Helicopter#H1(2) UNREGISTERED FROM WEATHER TOWER.
+Helicopter#H2(3): WE ARE GOING TO HAVE A WHITE CHRISTMAS!
+Helicopter#H2(3): ITS FOGGING UP!
+Baloon#B2(4): CAN YOU FEEL THE WINDS OF WINTER?!
+Baloon#B2(4): ITS SO BRIGHT OUT!
+JetPlane#J1(5): SNOW FALL!
+JetPlane#J1(5): WE SHOULD GET A FOG HORN!
+Baloon#B3(6): CAN YOU FEEL THE WINDS OF WINTER?!
+Baloon#B3(6): THE FOG OF WAR IS UPON US!!!
+JetPlane#J2(7): SNOW FALL!
+JetPlane#J2(7): SINGING IN THE RAIN!
+Helicopter#H4(8): WE ARE GOING TO HAVE A WHITE CHRISTMAS!
+Helicopter#H4(8): ITS POURING! TURN ON THE WINDSHIELD WIPERS
+Baloon#B1(1): ITS SO BRIGHT OUT!
+Baloon#B1(1) landed.
+Baloon#B1(1) unregistered from weather tower.
+Helicopter#H2(3): WE ARE GOING TO HAVE A WHITE CHRISTMAS!
+Helicopter#H2(3): ITS FOGGING UP!
+Baloon#B2(4): CAN YOU FEEL THE WINDS OF WINTER?!
+Baloon#B2(4): THE RAINS ARE UPON US!!!
+JetPlane#J1(5): SNOW FALL!
+Helicopter#J1(5) LANDED.
+Helicopter#J1(5) UNREGISTERED FROM WEATHER TOWER.
+Baloon#B3(6): CAN YOU FEEL THE WINDS OF WINTER?!
+Baloon#B3(6) landed.
+Baloon#B3(6) unregistered from weather tower.
+JetPlane#J2(7): SNOW FALL!
+JetPlane#J2(7): SUN IS SHINING!
+Helicopter#H4(8): WE ARE GOING TO HAVE A WHITE CHRISTMAS!
+Helicopter#H4(8): ITS FOGGING UP!
+Helicopter#H1(2): AHH ITS A BEAUTIFUL DAY!
+Helicopter#H1(2) LANDED.
+Helicopter#H1(2) UNREGISTERED FROM WEATHER TOWER.
+Helicopter#H2(3): WE ARE GOING TO HAVE A WHITE CHRISTMAS!
+Helicopter#H2(3) LANDED.
+Helicopter#H2(3) UNREGISTERED FROM WEATHER TOWER.
+Baloon#B2(4): CAN YOU FEEL THE WINDS OF WINTER?!
+JetPlane#J1(5): SUN IS SHINING!
+Helicopter#J1(5) LANDED.
+Helicopter#J1(5) UNREGISTERED FROM WEATHER TOWER.
+JetPlane#J2(7): SNOW FALL!
+JetPlane#J2(7): WE SHOULD GET A FOG HORN!
+Helicopter#H4(8): WE ARE GOING TO HAVE A WHITE CHRISTMAS!
+Helicopter#H4(8): ITS FOGGING UP!
+Helicopter#H2(3): AHH ITS A BEAUTIFUL DAY!
+Helicopter#H2(3) LANDED.
+Helicopter#H2(3) UNREGISTERED FROM WEATHER TOWER.
+Baloon#B2(4): THE RAINS ARE UPON US!!!
+Baloon#B3(6): ITS SO BRIGHT OUT!
+Baloon#B3(6) landed.
+Baloon#B3(6) unregistered from weather tower.
+JetPlane#J2(7): SNOW FALL!
+Helicopter#H4(8): WE ARE GOING TO HAVE A WHITE CHRISTMAS!
+Helicopter#H4(8) LANDED.
+Helicopter#H4(8) UNREGISTERED FROM WEATHER TOWER.
+Baloon#B2(4): CAN YOU FEEL THE WINDS OF WINTER?!
+Baloon#B2(4) landed.
+Baloon#B2(4) unregistered from weather tower.
+JetPlane#J2(7): SUN IS SHINING!
+JetPlane#J2(7): SNOW FALL!
+Helicopter#H4(8): AHH ITS A BEAUTIFUL DAY!
+Helicopter#H4(8) LANDED.
+Helicopter#H4(8) UNREGISTERED FROM WEATHER TOWER.
+Baloon#B2(4): ITS SO BRIGHT OUT!
+Baloon#B2(4) landed.
+Baloon#B2(4) unregistered from weather tower.
+JetPlane#J2(7): WE SHOULD GET A FOG HORN!
+JetPlane#J2(7): SNOW FALL!
+JetPlane#J2(7): WE SHOULD GET A FOG HORN!
+JetPlane#J2(7): SNOW FALL!
+JetPlane#J2(7): SINGING IN THE RAIN!
+JetPlane#J2(7): SNOW FALL!
+JetPlane#J2(7): SUN IS SHINING!
+JetPlane#J2(7): SNOW FALL!
+Helicopter#J2(7) LANDED.
+Helicopter#J2(7) UNREGISTERED FROM WEATHER TOWER.
+JetPlane#J2(7): SUN IS SHINING!
+Helicopter#J2(7) LANDED.
+Helicopter#J2(7) UNREGISTERED FROM WEATHER TOWER.
